@@ -1,6 +1,5 @@
 from cgitb import text
 from enum import unique
-from tkinter.tix import Form
 from unicodedata import name
 import bcrypt
 from flask import Flask, redirect, render_template, url_for, request, Markup
